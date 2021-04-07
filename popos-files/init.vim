@@ -7,9 +7,14 @@ Plug 'jeffkreeftmeijer/vim-numbertoggle'
 Plug 'townk/vim-autoclose'
 Plug 'tpope/vim-surround'
 Plug 'svermeulen/vim-subversive' 
-Plug 'sheerun/vim-polyglot'
 Plug 'kien/ctrlp.vim'
 Plug 'matze/vim-move'
+Plug 'janko/vim-test'
+Plug 'tpope/vim-rails'
+Plug 'vim-ruby/vim-ruby'
+Plug 'pangloss/vim-javascript'
+Plug 'tpope/vim-endwise'
+
 Plug 'dracula/vim', { 'as': 'dracula' }
 
 call plug#end()
@@ -30,6 +35,9 @@ let g:airline_theme='dracula'
 set nocompatible
 set tabpagemax=10
 set expandtab
+"set spell spelllang=en_ca
+let mapleader=" "
+
 autocmd FileType html setlocal shiftwidth=2 tabstop=2 softtabstop=2
 autocmd FileType ruby setlocal shiftwidth=2 tabstop=2 softtabstop=2
 autocmd FileType javascript setlocal shiftwidth=2 tabstop=2 softtabstop=2
@@ -52,7 +60,7 @@ nnoremap <c-j> <c-w>j
 nnoremap <c-k> <c-w>k
 nnoremap <c-l> <c-w>l
 
-nnoremap <F4> :NERDTreeToggle<CR>
+nnoremap <leader>r :NERDTreeToggle<cr>
 
 let g:ctrlp_working_path_mode = 'a'
 let g:ctrlp_max_files=0
