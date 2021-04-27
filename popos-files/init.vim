@@ -1,7 +1,8 @@
 call plug#begin('~/.local/share/nvim/plugged')
 
-Plug 'vim-airline/vim-airline'
-Plug 'vim-airline/vim-airline-themes'
+"Plug 'vim-airline/vim-airline'
+"Plug 'vim-airline/vim-airline-themes'
+Plug 'itchyny/lightline.vim'
 Plug 'scrooloose/nerdtree'
 Plug 'jeffkreeftmeijer/vim-numbertoggle'
 Plug 'townk/vim-autoclose'
@@ -14,8 +15,10 @@ Plug 'tpope/vim-rails'
 Plug 'vim-ruby/vim-ruby'
 Plug 'pangloss/vim-javascript'
 Plug 'tpope/vim-endwise'
-
 Plug 'dracula/vim', { 'as': 'dracula' }
+Plug 'yonlu/omni.vim' 
+Plug 'psliwka/vim-smoothie'
+Plug 'ntk148v/vim-horizon'
 
 call plug#end()
 
@@ -26,17 +29,24 @@ set autoindent
 set smartindent
 set cursorline
 syntax enable
+colorscheme horizon
 set termguicolors
-colorscheme dracula
+"colorscheme omni
 highlight Normal ctermbg=NONE
 set visualbell
 set background=dark
-let g:airline_theme='dracula'
 set nocompatible
 set tabpagemax=10
 set expandtab
 "set spell spelllang=en_ca
 let mapleader=" "
+set guifont=Fira_Code_Retina:h15
+
+" airline config
+"let g:airline_theme='dracula'
+
+" lightline config
+let g:lightline = {'colorscheme' : 'horizon'}
 
 autocmd FileType html setlocal shiftwidth=2 tabstop=2 softtabstop=2
 autocmd FileType ruby setlocal shiftwidth=2 tabstop=2 softtabstop=2
