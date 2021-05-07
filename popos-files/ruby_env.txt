@@ -1,0 +1,35 @@
+filename [.rufo]
+
+align_chained_calls true
+parens_in_def :dynamic
+
+filename [.rubocop.yml]
+
+require:
+  - rubocop-rails
+
+$ solargraph config .
+filename [.solargraph.yml]
+
+---
+include:
+- "**/*.rb"
+exclude:
+- spec/**/*
+- test/**/*
+- vendor/**/*
+- ".bundle/**/*"
+require: []
+domains: []
+reporters:
+- rubocop
+- require_not_found
+formatter:
+  rubocop:
+    cops: safe
+    except: []
+    only: []
+    extra_args: []
+require_paths: []
+plugins: []
+max_files: 500
