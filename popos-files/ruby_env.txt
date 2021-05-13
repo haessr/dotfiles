@@ -19,7 +19,16 @@ exclude:
 - test/**/*
 - vendor/**/*
 - ".bundle/**/*"
-require: []
+require:
+- actioncable
+- actionmailer
+- actionpack
+- actionview
+- activejob
+- activemodel
+- activerecord
+- activestorage
+- activesupport
 domains: []
 reporters:
 - rubocop
@@ -32,4 +41,4 @@ formatter:
     extra_args: []
 require_paths: []
 plugins: []
-max_files: 500
+max_files: 5000
