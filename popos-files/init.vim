@@ -15,10 +15,12 @@ Plug 'tpope/vim-rails'
 Plug 'vim-ruby/vim-ruby'
 Plug 'pangloss/vim-javascript'
 Plug 'tpope/vim-endwise'
-Plug 'dracula/vim', { 'as': 'dracula' }
+"Plug 'dracula/vim', { 'as': 'dracula' }
+Plug 'whatyouhide/vim-lengthmatters'
 Plug 'yonlu/omni.vim' 
 Plug 'psliwka/vim-smoothie'
 Plug 'ntk148v/vim-horizon'
+Plug 'w0rp/ale'
 
 call plug#end()
 
@@ -28,7 +30,6 @@ set number relativenumber
 set autoindent
 set smartindent
 set cursorline
-syntax enable
 colorscheme horizon
 set termguicolors
 "colorscheme omni
@@ -42,6 +43,14 @@ set expandtab
 let mapleader=" "
 set guifont=Fira_Code_Retina:h15
 
+" Syntax highlight 
+syntax enable
+filetype on
+filetype indent on
+filetype plugin on
+
+
+
 " airline config
 "let g:airline_theme='dracula'
 
@@ -49,7 +58,7 @@ set guifont=Fira_Code_Retina:h15
 let g:lightline = {'colorscheme' : 'horizon'}
 
 autocmd FileType html setlocal shiftwidth=2 tabstop=2 softtabstop=2
-autocmd FileType ruby setlocal shiftwidth=2 tabstop=2 softtabstop=2
+"autocmd FileType ruby setlocal shiftwidth=2 tabstop=2 softtabstop=2
 autocmd FileType javascript setlocal shiftwidth=2 tabstop=2 softtabstop=2
 autocmd FileType python setlocal shiftwidth=4 tabstop=4 softtabstop=4
 
