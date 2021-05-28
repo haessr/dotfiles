@@ -109,7 +109,7 @@ export GIT_EDITOR=vim
 # export EDITOR="code -w"
 
 # RUBY SETUP
-export PATH="./bin:./node_modules/.bin:$HOME/.yarn/bin:$HOME/.rbenv/bin:$PATH:/usr/local/sbin"
+export PATH="./bin:./node_modules/.bin:$HOME/.yarn/bin:$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
 
 # NVM SETUP 
