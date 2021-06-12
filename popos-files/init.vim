@@ -14,6 +14,8 @@ Plug 'janko/vim-test'
 Plug 'tpope/vim-rails'
 Plug 'vim-ruby/vim-ruby'
 Plug 'pangloss/vim-javascript'
+"Plug 'jelera/vim-javascript-syntax'
+Plug 'mxw/vim-jsx' 
 Plug 'tpope/vim-endwise'
 "Plug 'dracula/vim', { 'as': 'dracula' }
 Plug 'whatyouhide/vim-lengthmatters'
@@ -84,6 +86,7 @@ nnoremap <leader>r :NERDTreeToggle<cr>
 let g:ctrlp_working_path_mode = 'a'
 let g:ctrlp_max_files=0
 set clipboard=unnamedplus
+let NERDTreeShowHidden=1
 
 let g:ctrlp_custom_ignore = {
   \ 'dir':  '\.git$\|\.yardoc\|node_modules\|log\|tmp$',
