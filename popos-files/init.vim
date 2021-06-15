@@ -24,6 +24,7 @@ Plug 'psliwka/vim-smoothie'
 Plug 'ntk148v/vim-horizon'
 Plug 'w0rp/ale'
 "Plug 'vim-syntastic/syntastic'
+"Plug 'sbdchd/neoformat'
 
 call plug#end()
 
