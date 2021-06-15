@@ -23,6 +23,7 @@ Plug 'yonlu/omni.vim'
 Plug 'psliwka/vim-smoothie'
 Plug 'ntk148v/vim-horizon'
 Plug 'w0rp/ale'
+Plug 'vim-syntastic/syntastic'
 
 call plug#end()
 
@@ -113,3 +114,12 @@ let g:ctrlp_custom_ignore = {
 "      \'scss'
 "      \]
 "
+
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
