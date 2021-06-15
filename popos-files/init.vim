@@ -26,7 +26,8 @@ Plug 'ntk148v/vim-horizon'
 Plug 'w0rp/ale'
 "Plug 'vim-syntastic/syntastic'
 "Plug 'sbdchd/neoformat'
-Plugin 'jsit/sasscomplete.vim'
+Plug 'jsit/sasscomplete.vim'
+Plug 'mattn/emmet-vim'
 
 call plug#end()
 
@@ -130,3 +131,9 @@ let g:ctrlp_custom_ignore = {
 " Ctrl+x Ctrl+o
 autocmd FileType css,sass,scss setlocal omnifunc=sasscomplete#CompleteSass noci
 
+" vim-emmet: Ctrl + y + ,
+" Enable just for html/css
+let g:user_emmet_install_global = 0
+autocmd FileType html,css EmmetInstall
+" Redefine trigger key
+let g:user_emmet_leader_key='<C-Z>'
