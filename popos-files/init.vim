@@ -26,6 +26,7 @@ Plug 'ntk148v/vim-horizon'
 Plug 'w0rp/ale'
 "Plug 'vim-syntastic/syntastic'
 "Plug 'sbdchd/neoformat'
+Plugin 'jsit/sasscomplete.vim'
 
 call plug#end()
 
@@ -125,3 +126,7 @@ let g:ctrlp_custom_ignore = {
 "let g:syntastic_auto_loc_list = 1
 "let g:syntastic_check_on_open = 1
 "let g:syntastic_check_on_wq = 0
+
+" Ctrl+x Ctrl+o
+autocmd FileType css,sass,scss setlocal omnifunc=sasscomplete#CompleteSass noci
+
