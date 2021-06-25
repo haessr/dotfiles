@@ -5,7 +5,7 @@ call plug#begin('~/.local/share/nvim/plugged')
 Plug 'itchyny/lightline.vim'
 Plug 'scrooloose/nerdtree'
 Plug 'jeffkreeftmeijer/vim-numbertoggle'
-Plug 'townk/vim-autoclose'
+"Plug 'townk/vim-autoclose'
 Plug 'tpope/vim-surround'
 Plug 'svermeulen/vim-subversive' 
 Plug 'kien/ctrlp.vim'
