@@ -38,9 +38,8 @@ set autoindent
 set smartindent
 set cursorline
 syntax enable
-set background=dark
 colorscheme horizon
-
+set background=dark
 
 highlight Normal ctermbg=NONE
 set visualbell
