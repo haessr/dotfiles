@@ -1,0 +1,120 @@
+{
+  "window.menuBarVisibility": "toggle",
+  "breadcrumbs.enabled": true,
+  "workbench.iconTheme": "material-icon-theme",
+  "terminal.integrated.shell.windows": "c:/Program Files/PowerShell/7/pwsh.exe",
+  "terminal.integrated.fontFamily": "Fira Code Retina",
+  "terminal.integrated.fontSize": 15,
+  "terminal.integrated.fontWeight": "500",
+  "terminal.integrated.fontWeightBold": "normal",
+  "terminal.integrated.lineHeight": 1,
+  "terminal.integrated.cursorStyle": "block",
+  "terminal.integrated.cursorBlinking": true,
+  "editor.fontFamily": "Fira Code Retina",
+  "editor.fontWeight": "500",
+  "editor.fontLigatures": true,
+  "workbench.startupEditor": "newUntitledFile",
+  "editor.wordWrap": "on",
+  "[dart]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.rulers": [80],
+    "editor.selectionHighlight": false,
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "editor.suggestSelection": "first",
+    "editor.tabCompletion": "onlySnippets",
+    "editor.wordBasedSuggestions": false
+  },
+  "emmet.excludeLanguages": ["markdown"],
+  "emmet.triggerExpansionOnTab": true,
+  "emmet.includeLanguages": {
+    "erb": "html",
+    // "javascript": "html",
+    "javascript": "javascriptreact"
+  },
+  "emmet.showAbbreviationSuggestions": true,
+  "emmet.showSuggestionsAsSnippets": true,
+  "editor.formatOnPaste": true,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.snippetSuggestions": "top",
+  "editor.detectIndentation": false,
+  "editor.tabSize": 2,
+  "editor.smoothScrolling": true,
+  "editor.cursorSmoothCaretAnimation": true,
+  "workbench.editor.enablePreview": true,
+  "editor.renderWhitespace": "trailing",
+  "editor.renderIndentGuides": true,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "colorize.languages": ["typescript", "javascript", "css", "scss"],
+  "workbench.list.openMode": "singleClick",
+  "editor.renderLineHighlight": "line",
+  "workbench.colorCustomizations": {
+    // "editorCursor.foreground": "#f1fa8c",
+    "[Dracula]": {
+      "editor.lineHighlightBackground": "#17191f",
+      "editor.lineHighlightBorder": "#17191f",
+      "editor.selectionBackground": "#44475a",
+      "editor.selectionHighlightBackground": "#44475a",
+      "editor.selectionHighlightBorder": "#44475a"
+    }
+  },
+  "editor.rulers": [80],
+  "editor.cursorBlinking": "expand",
+  "editor.cursorStyle": "line",
+  "python.pythonPath": "/usr/bin/python3",
+  "workbench.panel.defaultLocation": "bottom",
+  "editor.formatOnSave": true,
+  "editor.lineNumbers": "relative",
+  "solargraph.autoformat": true,
+  "solargraph.diagnostics": true,
+  "solargraph.formatting": true,
+  // "ruby.linter.run": "onType",
+  "cSpell.userWords": [
+    "activestorage",
+    "gifs",
+    "latlng",
+    "mixins",
+    "neighbour",
+    "noopener",
+    "overscroll",
+    "signup",
+    "trillo",
+    "turbolinks",
+    "uneditable"
+  ],
+"splitHTMLAttributes.closingBracketOnNewLine": true,
+  "cSpell.enableFiletypes": ["erb", "ruby"],
+  "files.associations": {
+    "*.erb": "erb"
+    // "*.html.erb": "html",
+    // "*.js.erb": "js"
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[ruby]": {
+    "editor.formatOnSave": false,
+    "editor.defaultFormatter": "mbessey.vscode-rufo"
+  },
+  "[erb]": {
+    "editor.formatOnSave": false,
+    "editor.defaultFormatter": "mbessey.vscode-rufo"
+  },
+  "[gemfile]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "mbessey.vscode-rufo"
+  },
+  "workbench.sideBar.location": "right",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "workbench.colorTheme": "Horizon Bold",
+  "solargraph.commandPath": "/home/haessr/.rbenv/shims/solargraph",
+  "powermode.enabled": true,
+  "powermode.enableShake": false,
+  "powermode.backgroundMode": "mask",
+  "editor.lineHeight": 30,
+  "editor.fontSize": 15
+}
