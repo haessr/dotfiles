@@ -34,24 +34,25 @@ call plug#end()
 set t_Co=256
 set termguicolors
 set number relativenumber
-set autoindent
+"set autoindent
 set smartindent
 set cursorline
+syntax enable
+set background=dark
 colorscheme horizon
 set termguicolors
 "colorscheme omni
 highlight Normal ctermbg=NONE
 set visualbell
-set background=dark
 set nocompatible
 set tabpagemax=10
 set expandtab
 "set spell spelllang=en_ca
 let mapleader=" "
-set guifont=Fira_Code_Retina:h15
+"set guifont=Fira_Code_Retina:h15
 
 " Syntax highlight 
-syntax enable
+
 filetype on
 filetype indent on
 filetype plugin on
@@ -137,3 +138,18 @@ let g:user_emmet_install_global = 0
 autocmd FileType html,css EmmetInstall
 " Redefine trigger key
 let g:user_emmet_leader_key='<C-Z>'
+
+" # Typography 
+
+set guifont=Fira\ Code\ Retina:h15
+linespace=4
+set textwidth=80
+set colorcolumn=+1
+set numberwidth=4
+set cursorline      " highlight current line
+set showmatch       " highlight matching <[{()}]>
+set autoindent      " set autoindenting on
+set copyindent      " copy the indentation from previous line
+"set spell spelllang=en_us
+"set complete+=kspell
+" CTRL + N or CTRL + P to complete current word
