@@ -40,8 +40,8 @@ set cursorline
 syntax enable
 set background=dark
 colorscheme horizon
-set termguicolors
-"colorscheme omni
+
+
 highlight Normal ctermbg=NONE
 set visualbell
 set nocompatible
@@ -143,6 +143,13 @@ let g:user_emmet_leader_key='<C-Z>'
 " gnome-terminal cell spacing height 1.55 / font_size = 11
 
 set guifont=Fira\ Code\ Retina:h15
+"if has("gui_gtk2")
+"  set guifont=Droid\ Sans\ Mono\ 13
+"elseif has("gui_macvim")
+"  set guifont=Menlo\ Regular:h14
+"elseif has("gui_win32")
+"  set guifont=Consolas:h11:cANSI
+"endif
 set linespace=5
 set textwidth=80
 set colorcolumn=+1
