@@ -153,7 +153,7 @@ set linespace=5
 set textwidth=80
 set colorcolumn=+1
 set numberwidth=4
-"set cursorline      " highlight current line
+set cursorline      " highlight current line
 "set showmatch       " highlight matching <[{()}]>
 "set autoindent      " set autoindenting on
 set copyindent      " copy the indentation from previous line
