@@ -19,7 +19,7 @@ Plug 'sheerun/vim-polyglot'
 Plug 'mxw/vim-jsx' 
 Plug 'tpope/vim-endwise'
 "Plug 'dracula/vim', { 'as': 'dracula' }
-Plug 'whatyouhide/vim-lengthmatters'
+"Plug 'whatyouhide/vim-lengthmatters'
 Plug 'yonlu/omni.vim' 
 Plug 'psliwka/vim-smoothie'
 Plug 'ntk148v/vim-horizon'
@@ -34,7 +34,7 @@ call plug#end()
 set t_Co=256
 set termguicolors
 set number relativenumber
-"set autoindent
+set autoindent
 set smartindent
 set cursorline
 syntax enable
@@ -146,9 +146,9 @@ linespace=4
 set textwidth=80
 set colorcolumn=+1
 set numberwidth=4
-set cursorline      " highlight current line
-set showmatch       " highlight matching <[{()}]>
-set autoindent      " set autoindenting on
+"set cursorline      " highlight current line
+"set showmatch       " highlight matching <[{()}]>
+"set autoindent      " set autoindenting on
 set copyindent      " copy the indentation from previous line
 "set spell spelllang=en_us
 "set complete+=kspell
