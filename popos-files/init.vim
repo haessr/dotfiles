@@ -139,7 +139,7 @@ autocmd FileType html,css EmmetInstall
 let g:user_emmet_leader_key='<C-Z>'
 
 " # Typography 
-" gnome-terminal cell spacing height 1.55 / font_size = 11
+" gnome-terminal cell spacing height 1.50 / font_size = 11
 
 set guifont=Fira\ Code\ Retina:h15
 "if has("gui_gtk2")
