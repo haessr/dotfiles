@@ -143,7 +143,7 @@ let g:user_emmet_leader_key='<C-Z>'
 " gnome-terminal cell spacing height 1.55 / font_size = 11
 
 set guifont=Fira\ Code\ Retina:h15
-linespace=4
+set linespace=5
 set textwidth=80
 set colorcolumn=+1
 set numberwidth=4
