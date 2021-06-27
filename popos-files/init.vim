@@ -140,7 +140,7 @@ autocmd FileType html,css EmmetInstall
 let g:user_emmet_leader_key='<C-Z>'
 
 " # Typography 
-" gnome-terminal cell spacing height 1.35 - 1.45
+" gnome-terminal cell spacing height 1.55 / font_size = 11
 
 set guifont=Fira\ Code\ Retina:h15
 linespace=4
