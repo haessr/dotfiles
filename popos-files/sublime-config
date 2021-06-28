@@ -1,14 +1,16 @@
+
 {
-    "color_scheme": "Packages/Horizon Color Scheme/Horizon.sublime-color-scheme",
-    "font_face": "Fira Code",
-    "font_size": 12,
-    "ignored_packages": [
-        "Vintage",
-    ],
-    "tab_size": 2,
-    "theme": "Adaptive.sublime-theme",
-    "line_padding_top": 6,
-    "line_padding_bottom": 6,
-    /*"ignored_packages": ["Vintage"]*/
-    /*"ignored_packages": []*/
+	"ignored_packages":
+	[
+		"Vintage",
+	],
+	"color_scheme": "Packages/Horizon Color Scheme/Horizon.sublime-color-scheme",
+	"font_face": "Fira Code",
+	"font_size": 10,
+	"taab_size": 2,
+	"theme": "Adaptive.sublime-theme",
+	"line_padding_top": 4,
+    "line_padding_bottom": 4,
 }
+
+windows: "font_face": "Fira Code Retina",
