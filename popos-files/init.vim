@@ -32,14 +32,19 @@ Plug 'mattn/emmet-vim'
 call plug#end()
 
 set t_Co=256
-set termguicolors
+
 set number relativenumber
 set autoindent
 set smartindent
 set cursorline
-syntax enable
-colorscheme horizon
+# syntax enable
+syntax on
 set background=dark
+colorscheme horizon
+let $NVIM_TUI_ENABLE_TRUE_COLOR=1
+set termguicolors
+let &t_8f = "\<Esc>[38:2:%lu:%lu:%lum"
+let &t_8b = "\<Esc>[48:2:%lu:%lu:%lum"
 
 highlight Normal ctermbg=NONE
 set visualbell
@@ -70,7 +75,7 @@ autocmd FileType javascript setlocal shiftwidth=2 tabstop=2 softtabstop=2
 autocmd FileType python setlocal shiftwidth=4 tabstop=4 softtabstop=4
 
 
-let $NVIM_TUI_ENABLE_TRUE_COLOR=1
+
 
 "Personalizar las busquedas
 nnoremap <esc><esc> :nohlsearch<return>
