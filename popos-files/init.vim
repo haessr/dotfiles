@@ -19,6 +19,7 @@ Plug 'pangloss/vim-javascript'
 Plug 'mxw/vim-jsx' 
 Plug 'tpope/vim-endwise'
 Plug 'tpope/vim-commentary'
+"Check https://github.com/tomtom/tcomment_vim
 "Plug 'dracula/vim', { 'as': 'dracula' }
 "Plug 'whatyouhide/vim-lengthmatters'
 Plug 'yonlu/omni.vim' 
@@ -166,3 +167,6 @@ set copyindent      " copy the indentation from previous line
 "set spell spelllang=en_us
 "set complete+=kspell
 " CTRL + N or CTRL + P to complete current word
+
+"autocmd FileType apache setlocal commentstring=#\ %s
+
