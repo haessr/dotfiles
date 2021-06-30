@@ -18,6 +18,7 @@ Plug 'pangloss/vim-javascript'
 "Plug 'jelera/vim-javascript-syntax'
 Plug 'mxw/vim-jsx' 
 Plug 'tpope/vim-endwise'
+Plug 'tpope/vim-commentary'
 "Plug 'dracula/vim', { 'as': 'dracula' }
 "Plug 'whatyouhide/vim-lengthmatters'
 Plug 'yonlu/omni.vim' 
