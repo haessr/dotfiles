@@ -19,6 +19,7 @@ Plug 'pangloss/vim-javascript'
 Plug 'mxw/vim-jsx' 
 Plug 'tpope/vim-endwise'
 Plug 'tpope/vim-commentary'
+"gcc to comment/uncomment
 "Check https://github.com/tomtom/tcomment_vim
 "Plug 'dracula/vim', { 'as': 'dracula' }
 "Plug 'whatyouhide/vim-lengthmatters'
