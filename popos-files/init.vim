@@ -171,3 +171,6 @@ set copyindent      " copy the indentation from previous line
 
 "autocmd FileType apache setlocal commentstring=#\ %s
 
+inoremap <Leader>pp (<Enter>)<Esc><S-o>
+inoremap <Leader>cc {<Enter>}<Esc><S-o>
+inoremap <Leader>ss [<Enter>]<Esc><S-o>
