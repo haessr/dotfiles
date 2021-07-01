@@ -1,0 +1,20 @@
+// Sublime text package: https://packagecontrol.io/packages/HTML-CSS-JS%20Prettify
+// Before set node path
+
+{
+    "html":
+    {
+        "indent_char": " ",
+        "indent_size": 4
+    },
+    "scss":
+    {
+        "indent_char": " ",
+        "indent_size": 4
+    },
+    "js":
+    {
+        "indent_char": " ",
+        "indent_size": 2
+    }
+}
