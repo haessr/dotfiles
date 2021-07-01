@@ -31,6 +31,7 @@ Plug 'w0rp/ale'
 "Plug 'sbdchd/neoformat'
 Plug 'jsit/sasscomplete.vim'
 Plug 'mattn/emmet-vim'
+Plug 'tpope/vim-ragtag'
 
 call plug#end()
 
@@ -171,6 +172,6 @@ set copyindent      " copy the indentation from previous line
 
 "autocmd FileType apache setlocal commentstring=#\ %s
 
-inoremap <Leader>pp (<Enter>)<Esc><S-o>
-inoremap <Leader>cc {<Enter>}<Esc><S-o>
-inoremap <Leader>ss [<Enter>]<Esc><S-o>
+"inoremap <C-b>p (<Enter>)<Esc><S-o>
+inoremap <C-b>b {<Enter>}<Esc><S-o>
+"inoremap <C-b>s [<Enter>]<Esc><S-o>
