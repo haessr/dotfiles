@@ -1,5 +1,6 @@
 // Sublime text package: https://packagecontrol.io/packages/HTML-CSS-JS%20Prettify
 // Before set node path
+// Keybinding: Ctrl + Shift + h
 
 {
     "html":
