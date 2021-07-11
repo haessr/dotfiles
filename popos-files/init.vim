@@ -34,6 +34,7 @@ Plug 'w0rp/ale'
 Plug 'jsit/sasscomplete.vim'
 Plug 'mattn/emmet-vim'
 Plug 'tpope/vim-ragtag'
+Plug 'ap/vim-css-color'
 
 call plug#end()
 
@@ -43,7 +44,7 @@ set number relativenumber
 set autoindent
 set smartindent
 set cursorline
-# syntax enable
+"syntax enable
 syntax on
 set background=dark
 colorscheme horizon
