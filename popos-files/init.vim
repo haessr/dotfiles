@@ -34,7 +34,8 @@ Plug 'w0rp/ale'
 Plug 'jsit/sasscomplete.vim'
 Plug 'mattn/emmet-vim'
 Plug 'tpope/vim-ragtag'
-Plug 'ap/vim-css-color'
+Plug 'cakebaker/scss-syntax.vim'
+Plug 'shmargum/vim-sass-colors'
 
 call plug#end()
 
